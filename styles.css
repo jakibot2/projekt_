@@ -1,0 +1,36 @@
+body {
+	background-color: dodgerblue;
+}
+.vsebina{
+	position: fixed;
+    right: 0px;
+    background-color: dodgerblue;
+    width: 80%;
+    height: 100%;
+    top: 0px;
+	display: flex;
+    justify-content: center;  
+    height: 100vh;           
+    text-align: center;
+}
+h1 {
+	font-weight: bold;
+}
+.menu {
+    position: fixed;
+    left: 0px;
+    background-color: white;
+    width: 20%;
+    height: 100%;
+    top: 0px;
+	border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+button {
+	background-color: powderblue;
+	border: 2px solid black;
+	border-radius: 20px;
+	width: 90%;
+	height: 5%;
+	margin-top: 5%
+}
