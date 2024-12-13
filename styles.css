@@ -1,18 +1,20 @@
 body {
-	background-color: dodgerblue;
-}
-.vsebina{
-	position: fixed;
-    right: 0px;
     background-color: dodgerblue;
-    width: 80%;
+}
+
+.vsebina {
+    position: absolute;
+    left: 21%;
+    background-color: dodgerblue;
+    width: 79%;
     height: 100%;
     top: 0px;
-    display: flex;       
 }
+
 h1 {
-	font-weight: bold;
+    font-weight: bold;
 }
+
 .menu {
     position: fixed;
     left: 0px;
@@ -20,14 +22,23 @@ h1 {
     width: 20%;
     height: 100%;
     top: 0px;
-	border-top-right-radius: 20px;
+    border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-button {
-	background-color: powderblue;
-	border: 2px solid black;
-	border-radius: 20px;
-	width: 90%;
-	height: 5%;
-	margin-top: 5%
+
+.menu_gumb {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: powderblue;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 90%;
+    height: 5%;
+    margin-top: 5%;
+    margin-left: 4%;
 }
