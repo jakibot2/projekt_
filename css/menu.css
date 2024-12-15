@@ -1,24 +1,38 @@
 .menu {
     position: fixed;
-    left: 0px;
+    float: left;
     background-color: #9D998F;
     width: 20%;
-    height: 100%;
-    top: 0px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    height: 90%;
+    top: 10%;
 }
 
 .menu_gumb {
     text-decoration: none;
     color: white;
     font-weight: 800;
-    font-size: x-large;
+    font-size: 1.7vw;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #716F6A;
     border-top: 2px solid #9D998F;
-    height: 7%;
+    height: 10%;
 }
 
+.glava {
+    position: fixed;
+    top: 0;
+    height: 10%;
+    background-color: #676561;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.naslov {
+    margin-left: 2%;
+    font-size: 4.1vw;
+    font-weight: 900;
+    color: white;
+}
