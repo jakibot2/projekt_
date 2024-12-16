@@ -25,18 +25,21 @@ h2 {
 
 img {
     box-shadow: 3px 3px 5px gray;
+    max-width: 50%;
 }
 
-@media screen and (orientation: landscape) {
-    img {
-        max-width: 50%;
-    }
 
+
+@media screen and (orientation: landscape) {
     article {
         padding-left: 3%;
         max-width: 85%;
     }
+
+    
+
 }
+
 
 @media screen and (orientation: portrait) {
     body {
@@ -46,4 +49,5 @@ img {
     img {
         max-width: 100%;
     }
+
 }
