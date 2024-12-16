@@ -46,6 +46,18 @@
     display: none;
 }
 
+.jezik {
+    text-decoration: none;
+    position: absolute;
+    right: 3%;
+    font-size: 2vw;
+    color: white;
+}
+
+.trenuten {
+    background-color: #5c5b57;
+}
+
 @media screen and (orientation: portrait) {
     .pokazi_menu {
         display: inline;
