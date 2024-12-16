@@ -41,3 +41,15 @@
     font-weight: 900;
     color: white;
 }
+
+.pokazi_menu {
+    display: none;
+}
+
+@media screen and (orientation: portrait) {
+    .pokazi_menu {
+        display: inline;
+        max-height: 100%;
+        box-shadow: none;
+    }
+}
