@@ -19,8 +19,16 @@
     background-color: #716F6A;
     border-top: 2px solid #9D998F;
     height: 10%;
+    transition-time: 0.25s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-
+.menu_gumb:hover{
+    height: 14%;
+    color: black;
+    background-color: green;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
 /*#676561*/
 
 .glava {
