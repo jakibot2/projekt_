@@ -1,7 +1,7 @@
 .menu {
     position: fixed;
     float: left;
-    background-color: #9D998F;
+    background-color: var(--main_light);
     width: 20%;
     height: 90%;
     top: 10%;
@@ -16,22 +16,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #716F6A;
-    border-top: 2px solid #9D998F;
+    background-color: var(--main_dark);
+    border-top: 2px solid var(--main_light);
     height: 10%;
-    transition-time: 0.25s;
     transition: all;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 250ms;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.menu_gumb:hover{
+
+.menu_gumb:hover {
     transition: all;
-    transition-time: 250ms;
+    transition-duration: 250ms;
     height: 14%;
-    color: black;
-    background-color: green;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    
+    background-color: var(--accent1);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
 }
+
 /*#676561*/
 
 .glava {
@@ -66,7 +67,13 @@
 }
 
 .trenuten {
-    background-color: #5c5b57;
+    background-color: var(--accent1);
+}
+
+.logo {
+    box-shadow: none;
+    max-height: 80%;
+    rotate: 45deg;
 }
 
 @media screen and (orientation: portrait) {

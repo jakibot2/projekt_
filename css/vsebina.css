@@ -1,9 +1,13 @@
 body {
     margin: 0;
     margin-top: 6%;
-    background-color: rgb(244, 236, 216);
+    background-color: var(--background);
     font-size: larger;
-	font-family: "Sans Serif","Arial";
+    font-family: "Sans Serif", "Arial";
+}
+
+a {
+    color: #708F71;
 }
 
 
@@ -21,7 +25,7 @@ h2 {
     font-size: xx-large;
     border-bottom-width: 2px;
     border-bottom-style: solid;
-    border-bottom-color: #716F6A;
+    border-bottom-color: var(--accent1);
 }
 
 img {
@@ -37,7 +41,7 @@ img {
         max-width: 85%;
     }
 
-    
+
 
 }
 
