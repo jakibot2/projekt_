@@ -7,7 +7,7 @@ body {
 }
 
 a {
-    color: #708F71;
+    color: var(--accent1);
 }
 
 

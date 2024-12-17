@@ -59,14 +59,22 @@
 }
 
 .jezik {
+    transition: 200ms;
+    padding: 1%;
+    border-radius: 10px;
     text-decoration: none;
     position: absolute;
-    right: 3%;
+    right: 1%;
     font-size: 2vw;
     color: white;
 }
 
-.trenuten {
+.jezik:hover {
+    transition: 200ms;
+    background-color: var(--accent1);
+}
+
+.current {
     background-color: var(--accent1);
 }
 
