@@ -59,14 +59,21 @@
 }
 
 .jezik {
-    transition: 200ms;
-    padding: 1%;
-    border-radius: 10px;
-    text-decoration: none;
+    display: flex;
     position: absolute;
     right: 1%;
+
+    height: 10vmin;
+    width: 10vmin;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+    text-decoration: none;
     font-size: 5vmin;
     color: white;
+
+    transition: 200ms;
 }
 
 .jezik:hover {
