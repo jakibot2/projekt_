@@ -56,6 +56,10 @@ img {
         margin-top: 8vh;
         width: 96%;
         padding: 2%;
+        font-size: 4vw;
     }
-
+    h1, h2 {
+        font-size: 8vw;
+        border-width: 7px;
+    }
 }
