@@ -12,11 +12,10 @@ a {
 
 .vsebina {
     margin-left: 20%;
-    margin-top: 13vh;
-    width: 74%;
-    top: 0%;
-    padding-left: 2%;
-    padding-right: 4%;
+    margin-top: 14vh;
+    width: 70%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 
@@ -29,19 +28,19 @@ h2 {
 }
 
 img {
+    margin-left: 8%;
     box-shadow: 3px 3px 5px var(--accent1);
-    max-width: 50%;
+    max-width: 84%;
+
 }
 
 
 
 @media screen and (orientation: landscape) {
     article {
-        padding-left: 3%;
-        max-width: 85%;
+        padding-left: 8%;
+        max-width: 84%;
     }
-
-
 
 }
 
@@ -58,7 +57,9 @@ img {
         padding: 2%;
         font-size: 4vw;
     }
-    h1, h2 {
+
+    h1,
+    h2 {
         font-size: 8vw;
         border-width: 7px;
     }
