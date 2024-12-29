@@ -1,6 +1,7 @@
 .menu {
     position: fixed;
-    float: left;
+    display: flex;
+    flex-direction: column;
     background-color: var(--main_light);
     width: 20%;
     height: 90%;
@@ -33,7 +34,9 @@
 
 }
 
-/*#676561*/
+.vaje_gimvic {
+    background-color: var(--accent2);
+}
 
 .glava {
     position: fixed;
