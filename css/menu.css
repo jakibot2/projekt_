@@ -35,6 +35,8 @@
 }
 
 .vaje_gimvic {
+    /*edit if uploaded to vaje.gimvic.org*/
+    display: none;
     background-color: var(--accent2);
 }
 
