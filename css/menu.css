@@ -122,4 +122,9 @@
     .menu {
         display: none;
     }
+
+    .noga {
+        margin-left: 0;
+        width: 100%;
+    }
 }
