@@ -120,6 +120,10 @@
         box-shadow: none;
     }
 
+    .menu_gumb {
+        font-size: 8vmin;
+    }
+
     .menu {
         display: none;
     }
