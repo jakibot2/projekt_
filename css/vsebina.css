@@ -5,8 +5,11 @@ body {
     font-family: "Sans Serif", "Arial";
 }
 
-a {
-    color: var(--accent1);
+.povezava:link {
+    color: #396cab;
+}
+.povezava:visited {
+    color: #b24dae;
 }
 
 
