@@ -34,6 +34,12 @@ h2 {
     margin-bottom: 1rem;
 }
 
+h3 {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--accent2);
+}
+
 .slika {
     max-height: 65vh;
     display: block;
