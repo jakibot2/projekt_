@@ -15,12 +15,12 @@
     --accent2: #707E8F;
     --accent3: #8F708E;
     */
-     --background: rgb(244, 236, 216);
-    --main_dark: #716F6A;
-    --main_light: #5F9B4D;
-    --accent1: #68B353;
-    --accent2: #70917A;
-    --accent3: #77D05E;
+    --background: rgb(244, 236, 216);
+    --main_dark:  rgb(119, 208, 94);
+    --main_light: rgb(72, 127, 56);
+    --accent1: rgb(65, 116, 51);
+    --accent2: rgb(57, 103, 44);
+    --accent3: rgb(55, 95, 44);
     
     font-size: medium;
 }
