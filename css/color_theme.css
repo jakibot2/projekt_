@@ -17,10 +17,10 @@
     */
      --background: rgb(244, 236, 216);
     --main_dark: #716F6A;
-    --main_light: #9D998F;
-    --accent1: #708F71;
+    --main_light: ##5F9B4D;
+    --accent1: ##68B353;
     --accent2: ##70917A;
-    --accent3: ##6F9065;
+    --accent3: ###77D05E;
     
     font-size: medium;
 }
