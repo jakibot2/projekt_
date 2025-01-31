@@ -62,6 +62,17 @@
 
 .pokazi_menu {
     display: none;
+    height: 100%;
+    box-shadow: none;
+    border: none;
+    background: none;
+}
+.skrij_menu {
+    display: none;
+    height: 100%;
+    box-shadow: none;
+    border: none;
+    background: none;
 }
 
 .jezik {
@@ -117,16 +128,21 @@
 @media screen and (orientation: portrait) {
     .pokazi_menu {
         display: inline;
-        max-height: 100%;
-        box-shadow: none;
+    }
+
+    .menu {
+        width: 100%;
+        margin-left: -100%;
+        transition: all 500ms;
+    }
+
+    .pokazan {
+        margin-left: 0%;
+        transition: all 500ms;
     }
 
     .menu_gumb {
         font-size: 8vmin;
-    }
-
-    .menu {
-        display: none;
     }
 
     .noga {
