@@ -1,13 +1,12 @@
 :root {
-    
-    --background: #f4ecd8;
-    --main_dark: #363537;
-    --main_light: #666360;
-    --accent1: #4cbb17;
-    --accent2: #FFC67D;
-    --accent3: #2E4053;
-    
-     /*eksperimentalne barve */
+    /* stare barve
+    --background: #FFFAEC;
+    --main_dark: #3D3D3D;
+    --main_light: #6B6963;
+    --accent1: #578E7E;
+    --accent2: #8E7E57;
+    --accent3: #7E578E;
+
     --background: rgb(244, 236, 216);
     --main_dark: #716F6A;
     --main_light: #9D998F;
@@ -15,21 +14,24 @@
     --accent2: #707E8F;
     --accent3: #8F708E;
     
-    /*
-    --background: rgb(244, 236, 216);
-    --main_dark:  rgb(119, 208, 94);
-    --main_light: rgb(72, 127, 56);
-    --accent1: rgb(65, 116, 51);
-    --accent2: rgb(57, 103, 44);
-    --accent3: rgb(55, 95, 44);
-    */
+    --background: rgb(244, 236, 216); 
+    -- "jakob je cool jure pa ni" -Rupert
 
-    --background: rgb(236, 236, 228);
+    --background: rgb(221, 246, 216);
     --main_dark:  rgb(119, 208, 94);
     --main_light: rgb(72, 127, 56);
     --accent1: rgb(65, 116, 51);
     --accent2: rgb(57, 103, 44);
     --accent3: rgb(55, 95, 44);
+*/
+    --background: #F1F0E9;
+    --main_dark: #2A5D30;
+    --main_light: #46724A;
+    --accent1: #2A5D30;
+    --accent2: #997F66;
+    --accent3: #668099;
+    --text_color: #DfDfDf;
+
 
     font-size: medium;
 }

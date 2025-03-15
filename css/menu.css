@@ -2,7 +2,7 @@
     position: fixed;
     display: flex;
     flex-direction: column;
-    background-color: var(--main_light);
+    background-color: var(--main_dark);
     width: 20%;
     height: 90%;
     top: 10%;
@@ -11,14 +11,14 @@
 
 .menu_gumb {
     text-decoration: none;
-    color: white;
+    color: var(--text_color);
     font-weight: 700;
     font-size: 4.5vmin;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--main_dark);
-    border-top: 2px solid var(--main_light);
+    background-color: var(--main_light);
+    border-top: 2px solid var(--main_dark);
     height: 10%;
     transition: all;
     transition-duration: 250ms;
@@ -27,6 +27,7 @@
 
 .menu_gumb:hover {
     transition: all;
+    color: white;
     transition-duration: 250ms;
     height: 14%;
     background-color: var(--accent1);
@@ -34,10 +35,14 @@
 
 }
 
+mark {
+    background-color: #9fb4c7;
+}
+
 .vaje_gimvic {
     /*edit if uploaded to vaje.gimvic.org*/
-    display: none;
-    background-color: var(--accent2);
+    display: flexbox;
+    background-color: var(--accent3);
 }
 
 .glava {
@@ -47,7 +52,7 @@
     /*-- scrollanje je ful laggy*/
     backdrop-filter: blur(10px);
     /*-- background-color: rgba(87, 86, 82, 0.85); */
-    background-color: rgba(94, 251, 94, 0.61);
+    background-color:  rgb(42, 93, 48, 0.85);
     width: 100%;
     display: flex;
     align-items: center;
@@ -68,6 +73,7 @@
     border: none;
     background: none;
 }
+
 .skrij_menu {
     display: none;
     height: 100%;
@@ -96,7 +102,7 @@
 
 .jezik:hover {
     transition: 200ms;
-    background-color: var(--accent1);
+    background-color: var(--accent3);
 }
 
 .current {
@@ -122,9 +128,10 @@
     margin-top: 3vh;
     z-index: -1;
 
-    background-color: var(--main_dark);
+    background-color: var(--main_light);
     color: white;
 }
+
 
 @media screen and (orientation: portrait) {
     .pokazi_menu {
