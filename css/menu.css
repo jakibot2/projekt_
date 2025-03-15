@@ -35,6 +35,10 @@
 
 }
 
+mark {
+    background-color: #9fb4c7;
+}
+
 .vaje_gimvic {
     /*edit if uploaded to vaje.gimvic.org*/
     display: flexbox;
@@ -124,9 +128,10 @@
     margin-top: 3vh;
     z-index: -1;
 
-    background-color: var(--main_dark);
+    background-color: var(--main_light);
     color: white;
 }
+
 
 @media screen and (orientation: portrait) {
     .pokazi_menu {
