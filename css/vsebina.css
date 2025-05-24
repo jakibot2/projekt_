@@ -6,11 +6,13 @@ body {
 }
 
 .povezava:link {
-    color: #396cab;
+    /*color: #396cab;*/
+    color: var(--accent3);
 }
 
 .povezava:visited {
-    color: #b24dae;
+    /*color: #b24dae;*/
+    color: var(--accent2);
 }
 
 
