@@ -78,6 +78,14 @@ p {
         max-width: 100%;
     }
 
+    p {
+        text-align: left;
+    }
+
+    :root {
+        font-size: medium;
+    }
+
     .vsebina {
         margin: 0;
         margin-top: 9vh;
